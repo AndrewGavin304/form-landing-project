@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap");
+body {
+  font-family: "Courier New", Courier, monospace;
+  color: pink;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+}
+
+.sidebar {
+  display: flex;
+  width: 33%;
+  align-items: stretch;
+  position: relative;
+  height: 100vh;
+}
+.sidebar img {
+  object-fit: cover;
+}
+.sidebar .overlay {
+  display: flex;
+  position: absolute;
+  align-self: 200px;
+  width: 100%;
+  height: 15%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(71, 137, 120, 0.5411764706);
+  margin-top: 33%;
+}
+.sidebar .overlay img {
+  height: 70%;
+  margin: 20px;
+  fill: #E7A1CB;
+}
+.sidebar .company-name {
+  font-size: 50px;
+  opacity: 100%;
+  font-family: "Homemade Apple";
+}
+
+.text-pink {
+  color: #E7A1CB;
+}
+
+.bg-pink {
+  background-color: #E7A1CB;
+}
+
+.text-green {
+  color: #84DCC6;
+}
+
+.bg-green {
+  background-color: #84DCC6;
+}
+
+.text-blue {
+  color: #ACD7EC;
+}
+
+.bg-blue {
+  background-color: #ACD7EC;
+}
+
+.text-grey {
+  color: #478978;
+}
+
+.bg-grey {
+  background-color: #478978;
+}
+
+.text-orange {
+  color: #FCB97D;
+}
+
+.bg-orange {
+  background-color: #FCB97D;
+}
